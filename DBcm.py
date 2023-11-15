@@ -7,7 +7,8 @@ class CredentialsError(Exception):
     pass
 
 class SQLError(Exception):
-    pass 
+    pass 
+
 
 class UseDatabase:
 
