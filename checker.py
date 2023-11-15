@@ -9,3 +9,4 @@ def check_logged_in(func):
             return func(*args, **kwargs)
         return 'You are NOT logged in.'
     return wrapper
+    
